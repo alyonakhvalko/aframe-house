@@ -7,18 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>A-Frame House - Аренда домика для отдыха</title>
 </head>
 <body>
     <header class="header">
         <div class="header-container container">
-            <div class="logo"></div>
+            <a class="logo" href="./index.html"></a>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#" class="nav-link">Услуги</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Стоимость</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Услуги</a></li>
+                    <li class="nav-item"><a href="#price" class="nav-link">Стоимость</a></li>
+                    <li class="nav-item"><a href="./map.html" class="nav-link">Как добраться</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
                 </ul>
             </nav>
             <div class="header-number"><a href="tel:+375445375438" class="phone-link">+375 44 537-54-38</a></div>
@@ -30,13 +32,13 @@
                 <div class="hero-section_content">
                     <h1 class="h1">Аренда A-Frame домиков</h1>
                     <p>Приглашаем Вас отвлечься от городской суеты и душевно провести время в окружении густых лесных массивов и чистого соснового воздуха.</p>
-                    <form action="https://dikidi.ru/ru/promo/business" class="btn"><button class="hero-section_btn">Забронировать</button></form>
+                    <form action="https://dikidi.ru/ru/promo/business"><button class="btn">Забронировать</button></form>
                 </div>
             </div>    
         </section>
         <section class="services-section container">
             <div class="services-section_column1">
-                <h2 class="h2 h2-services-section">Мы предлагаем</h2>
+                <h2 class="h2 h2-services-section" id="services">Мы предлагаем</h2>
                 <div class="column1-img"></div>
                 <div class="column1-div">
                     <h3>Атмосфера теплоты и уюта</h3>
@@ -68,8 +70,8 @@
                     <button class="slider-btn next-button" aria-label="Посмотреть следующий слайд">&rarr;</button>
                 </div>
             </div>
-            <div class="conditions-section_col2">
-                <h2 class="h2 h2-conditions-section">Условия проживания</h2>
+            <div class="conditions-section_col2" id="price">
+                <h2 class="h2 h2-conditions-section" >Условия проживания</h2>
                 <div class="conditions-section_descr">
                     <p>4 гостя</p>
                     <p>2 спальни</p>
@@ -99,7 +101,7 @@
                     </div>
                 </div>
                 <div class="div-book">
-                    <form action="#" class="btn"><button class="btn-text">Забронировать</button></form>
+                    <form action="https://dikidi.ru/ru/promo/business"><button class="btn">Забронировать</button></form>
                     <div>160 BYN за сутки</div>
                 </div>
             </div>
@@ -135,7 +137,7 @@
                             <p>бесплатная отмена за 3 дня</p>
                             <p>без предоплаты</p>
                         </div>
-                        <form action="#" class="btn"><button class="btn-text">Забронировать</button></form>
+                        <form action="https://dikidi.ru/ru/promo/business"><button class="btn">Забронировать</button></form>
                     </div>
 
                     <div class="main-info-img1"></div>
@@ -154,30 +156,30 @@
             <div class="discounts-section-content">
                 <h2 class="h2">Скидка 10%</h2>
                 <p>Получите скидку при раннем бронировании (за 2 месяца)</p>
-                <form action="#" class="btn"><button class="btn-text">Получить скидку</button></form>
+                <form action="https://dikidi.ru/ru/promo/business"><button class="btn">Получить скидку</button></form>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer-wrapper container">
-            <div class="footer-logo"></div>
+        <div class="footer-wrapper container" id="contacts">
+            <a class="footer-logo" href="./index.html"></a>
             <div class="footer-number-wrapper">
                 <p>Уточнить подробности</p>
                 <div class="footer-number"><a href="tel:+375445375438" class="phone-link">+375 44 537-54-38</a></div>
             </div>
             <div class="footer-address">
                 <p>Наш адрес:</p>
-                <p>Минская область, д.Воловщина</p>
+                <a class="footer-map" href="https://www.google.com/maps">Минская область, д.Воловщина</a>
                 <p>ул. Центральная, 57</p>
             </div>
             <div class="footer-contacts">
                 <p>Электронная почта:</p>
-                <div class="footer-mail"><a href="mailto:alyonakazimirchick@gmail.com" class="phone-link">aframehouse@gmail.com</a></div>
+                <a class="footer-mail" href="mailto:alyonakazimirchick@gmail.com">aframehouse@gmail.com</a>
                 <p>Мы в соцсетях:</p>
                 <div class="social-wrapper">
-                    <div class="instagram"><a href=""></a></div>
-                    <div class="viber"><a href=""></a></div>
-                    <div class="telegram"><a href=""></a></div>
+                    <a class="instagram" target="_blank" href="https://www.instagram.com/alyona_taplink/"></a>
+                    <a class="viber" target="_blank" href=""></a>
+                    <a target="_blank" class="telegram" href="https://t.me/alyona_web"></a>
                 </div>
             </div>
         </div>
